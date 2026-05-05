@@ -4,5 +4,5 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-libp2p = { version = "0.56.0", features = ["tcp", "noise", "yamux", "ping", "tokio"] }
+libp2p = { version = "0.56.0", features = ["tcp", "noise", "yamux", "ping", "mdns", "tokio", "macros"] }
 tokio = { version = "1.52.1", features = ["full"] }
