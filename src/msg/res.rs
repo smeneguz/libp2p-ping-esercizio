@@ -1,5 +1,7 @@
 use libp2p::Multiaddr;
-#[derive(Clone,Debug)]
+use serde::{Deserialize, Serialize};
+
+#[derive(Clone, Debug, Serialize, Deserialize)]
 pub enum Res {
     PeerList(Vec<Multiaddr>),
 }
