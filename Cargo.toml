@@ -4,5 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+async-trait = "0.1.89"
 libp2p = { version = "0.56.0", features = ["tcp", "noise", "yamux", "ping", "mdns", "tokio", "macros"] }
+serde = { version = "1.0.228", features = ["derive"] }
 tokio = { version = "1.52.1", features = ["full"] }

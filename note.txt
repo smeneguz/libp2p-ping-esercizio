@@ -1,0 +1,6 @@
+need tokyo as dependenciesto run the libp2p-ping example. 
+need a multiplexing protocol like yamux to handle multiple streams over a single connection. need to manage different languages and platforms.
+cargo add libp2p -F  tcp tokyo noise yamux ping full
+cargo add tokio -F full
+
+du -l
